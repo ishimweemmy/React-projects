@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.NavBar{
+    width: 100%;
+    height: fit-content;
+    background: black;
+    box-shadow: 2px 2px 0 0 rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.NavBar div:nth-child(2) {
+    margin: 0 1em 0 0;
+}
+.NavBar div:nth-child(1){
+    display: flex;
+    align-items: center;
+    gap: 2em
+}
+.NavBar div:nth-child(1) h1{
+    color: #61DAFB;
+    font-size: 2em
+}
+.NavBar div img{
+    width: 7em;
+    height: 7em;
+}
+h1{
+    color: white;
+    font-size: 1.2em
+}
+li::marker {
+    color: #61DAFB;
+    font-size: 2rem
+}

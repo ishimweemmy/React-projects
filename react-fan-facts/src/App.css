@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  width: 35%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(./logo192.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}

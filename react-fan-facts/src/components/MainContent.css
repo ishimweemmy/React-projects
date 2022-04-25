@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.MainContent {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  background: rgba(0, 0, 0, 0.882);
+  gap: 2em
+}
+.MainContent ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+ul li::before{
+    content: ''
+}
+.MainContent{
+    color: white;
+}
+.MainContent h1{
+    font-size: 3em
+}
