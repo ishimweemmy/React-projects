@@ -1,0 +1,8 @@
+Footer{
+    display: grid;
+    grid-template-columns: repeat(5, 20em);
+    grid-auto-rows: minmax(20em, auto);
+    align-items: center;
+    justify-content:center;
+    gap: 2em;
+}

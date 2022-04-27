@@ -7,9 +7,10 @@ export default function Card () {
             <div className="bottom-section">
                 <div className="stars" >
                   <i className="fa-solid fa-star"></i>
-                  <p>(6).USA</p>
+                  <span> 5.0 (6)</span>
+                  <li>USA</li>
                 </div>
-                <p>lorem ipsum dolor sit amet lrem ipsum dolor amet</p>
+                <p>Life lessons with Katie Zaferes</p>
                 <p><b>From $136</b>/<small>person</small></p>
             </div>
         </div>

@@ -1,15 +1,14 @@
 import React from 'react'
 import Card from './Card'
-import './css/Card.css'
+import './css/Footer.css'
 
-export default function Footer () {
+export default function footer () {
     return (
-        <Footer>
+        <footer>
             <Card />
             <Card />
             <Card />
             <Card />
-            <Card />
-        </Footer>
+        </footer>
     )
 }
