@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Poppins&family=Quantico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    z-index: 0;
+}
+.hero-section img {
+    width: 60%;
+    margin: 2%;
+    z-index: 0;
+}
+.hero-section h1{
+    margin: 0 0 0 -18em;
+    font-size: 2.5em;
+}
+.hero-section p {
+    font-size: 1.5em;
+}
+.hero-section div {
+    padding: 0 20%;
+    margin: 10px;
+    z-index: 0;
+}

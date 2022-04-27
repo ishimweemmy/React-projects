@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Card{
+    display: flex;;
+    grid-template-columns: 5rem;
+    grid-template-rows: 2.5rem;
+    grid-column-gap: .5em;
+}
+.bottom-section{
+    display: flex;
+    flex-direction: column;
+}
